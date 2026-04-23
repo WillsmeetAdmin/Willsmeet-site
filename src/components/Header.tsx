@@ -10,7 +10,7 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
-import Logo from '../../public/assets/Willsmeet_white.png'
+
 
 type NavLink = {
   href: string
@@ -31,6 +31,8 @@ const navLinks: NavLink[] = [
       { label: 'Packaging', href: '/solutions#packaging', icon: Package },
       { label: 'Corporate Gifting', href: '/solutions#gifting', icon: Gift },
       { label: 'Office Setup', href: '/solutions#setup', icon: Building2 },
+      {label: 'Personal protective equipment',href:'/solutions#ppe',icon:ShieldCheck},
+      {label:'Hardware Materials',href:'/solutions#hardware',icon:Building2}
     ]
   },
   {
@@ -95,7 +97,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
               <Image
-                src={Logo}
+                src="/assests/Willsmeet_white.png"
                 alt="Willsmeet Logo"
                 fill
                 className="object-contain"

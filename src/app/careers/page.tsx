@@ -8,7 +8,7 @@ import {
     Coffee, Sparkles, ArrowRight, Star, Globe, Lightbulb,
 } from 'lucide-react'
 
-import CareerBanner from '../../../public/assets/banners/Careerbanner.png'
+
 
 const perks = [
     {
@@ -79,7 +79,7 @@ export default function CareersPage() {
                     {/* Background Image */}
                     <div className="absolute inset-0 z-0 bg-[#0d1412]">
                         <Image
-                            src={CareerBanner}
+                            src="/assests/banners/Careerbanner.png"
                             alt="Careers"
                             fill
                             className="object-cover object-center"

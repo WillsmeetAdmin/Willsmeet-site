@@ -6,7 +6,6 @@ import Link from 'next/link'
 import { Header, Footer, WhatsAppButton, FloatingShare } from '@/components'
 import { Target, Eye, Zap, MapPin, Cpu, HeartHandshake, PiggyBank, Users, Award, TrendingUp, Clock, Sparkles, Linkedin, Phone } from 'lucide-react'
 
-import AboutBanner from '../../../public/assets/banners/aboutbanner.jpeg'
 
 const values = [
   {
@@ -117,7 +116,7 @@ export default function AboutPage() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
             <Image
-              src={AboutBanner}
+              src="/assests/banner/aboutbanner.jpeg"
               alt="About Us"
               fill
               className="object-cover"

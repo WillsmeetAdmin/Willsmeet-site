@@ -4,7 +4,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { MapPin, Phone, Mail, Linkedin, Share2, Check, ExternalLink, ArrowRight, ArrowUpRight } from 'lucide-react'
-import Logo from '../../public/assets/Willsmeet_white.png'
 import { usePathname } from 'next/navigation'
 
 const navLinks = [
@@ -105,7 +104,7 @@ export default function Footer() {
               <Link href="/" className="inline-block mb-5">
                 <div className="relative w-32 h-14">
                   <Image
-                    src={Logo}
+                    src="/assests/Willsmeet_white.png"
                     alt="Willsmeet Logo"
                     fill
                     className="object-contain object-left "
